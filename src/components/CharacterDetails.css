@@ -1,0 +1,22 @@
+.character-container {
+  color: white;
+  font-size: x-large;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-details {
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 1rem;
+  min-width: 30%;
+}
+
+.character-details > h1 {
+  border-bottom: 2px solid white;
+  text-align: center;
+}
